@@ -1,0 +1,422 @@
+{
+  "Discapacidades Intelectuales y del Desarrollo": {
+    "leve": [
+      "Déficit intelectual leve",
+      "Síndrome de X Frágil (funcionalidad leve)",
+      "Síndrome de Noonan (leve)",
+      "Neurofibromatosis tipo 1 (sin complicaciones mayores)",
+      "Trastorno del espectro alcohólico fetal (leve)",
+      "Retraso global del desarrollo leve",
+      "Síndrome de Sotos (leve)",
+      "Síndrome de Kabuki (leve)",
+      "Síndrome de Coffin-Lowry (leve)",
+      "Síndrome de Larsen (leve)"
+    ],
+    "moderado": [
+      "Síndrome de Down",
+      "Síndrome de Williams",
+      "Síndrome de Prader-Willi",
+      "Síndrome de Angelman",
+      "Síndrome de Smith-Magenis",
+      "Síndrome de Cornelia de Lange",
+      "Síndrome de Beckwith-Wiedemann (con déficit cognitivo)",
+      "Síndrome de Phelan-McDermid",
+      "Síndrome de Mowat-Wilson",
+      "Déficit intelectual moderado",
+      "Encefalopatía crónica no progresiva moderada",
+      "Parálisis cerebral con afectación cognitiva moderada",
+      "Hidrocefalia congénita con secuelas moderadas",
+      "Microcefalia (funcionalidad moderada)",
+      "Agenesia del cuerpo calloso (funcionalidad moderada)",
+      "Síndrome de Dandy-Walker (moderado)",
+      "Síndrome de Sturge-Weber (moderado)",
+      "Síndrome de CHARGE (moderado)",
+      "Síndrome de Rubinstein-Taybi",
+      "Síndrome de Freeman-Sheldon (con afectación cognitiva)",
+      "Síndrome de Stickler (con afectación cognitiva)",
+      "Enfermedad de Gaucher tipo 3 (neurológica moderada)",
+      "Leucodistrofia metacromática juvenil (moderada)"
+    ],
+    "severo": [
+      "Déficit intelectual severo",
+      "Déficit intelectual profundo",
+      "Síndrome de Rett",
+      "Esclerosis tuberosa (con discapacidad intelectual severa)",
+      "Holoprosencefalia",
+      "Lissencefalia",
+      "Paquigiria",
+      "Esquizencefalia",
+      "Heterotopia nodular masiva",
+      "Síndrome de Aicardi",
+      "Síndrome de West",
+      "Síndrome de Lennox-Gastaut",
+      "Síndrome de Landau-Kleffner",
+      "Síndrome de Edwards (trisomía 18)",
+      "Síndrome de Patau (trisomía 13)",
+      "Síndrome de Cri-du-chat",
+      "Síndrome de Wolf-Hirschhorn",
+      "Síndrome de Jacobsen",
+      "Síndrome de Langer-Giedion",
+      "Síndrome de Morquio (con deterioro neurológico)",
+      "Síndrome de Hurler",
+      "Síndrome de Hunter (grave)",
+      "Síndrome de Sanfilippo",
+      "Enfermedad de Tay-Sachs (infantil)",
+      "Enfermedad de Niemann-Pick tipo A",
+      "Enfermedad de Krabbe infantil",
+      "Leucodistrofia metacromática infantil"
+    ]
+  },
+  "Discapacidades Físicas y Motoras": {
+    "leve": [
+      "Monoplejía (leve)",
+      "Hemiplejía (leve)",
+      "Artritis reumatoide juvenil (leve)",
+      "Artrosis leve",
+      "Pies zambos congénitos leves",
+      "Luxación congénita de cadera tratada con secuelas leves",
+      "Escoliosis leve (curva 10-25 grados)",
+      "Fibrodisplasia osificante progresiva (estadio inicial)",
+      "Enfermedad de Dupuytren (estadio I-II)"
+    ],
+    "moderado": [
+      "Paraplejía (funcionalidad conservada de brazos)",
+      "Hemiplejía moderada",
+      "Parálisis cerebral espástica (capacidad de marcha con ayuda)",
+      "Lesión medular incompleta (nivel D8-L1)",
+      "Atrofia muscular espinal tipo 2",
+      "Esclerosis múltiple (EDSS 4.0-6.5)",
+      "Enfermedad de Parkinson (Hoehn & Yahr 3)",
+      "Ataxia de Friedreich (con uso de silla de ruedas ocasional)",
+      "Distrofia muscular de Becker",
+      "Distrofia miotónica (Steinert) moderada",
+      "Polimiositis/Dermatomiositis (dependencia parcial)",
+      "Artrogriposis múltiple (funcionalidad moderada)",
+      "Espina bífida (mielomeningocele con función de miembros inferiores limitada)",
+      "Acondroplasia (con limitaciones articulares moderadas)",
+      "Osteogénesis imperfecta tipo III (deformidades pero deambulación con ayudas)",
+      "Artritis reumatoide avanzada (deformidades articulares)",
+      "Espondilitis anquilosante (fusión parcial)",
+      "Lupus con afectación articular y muscular moderada",
+      "Amputación transtibial unilateral",
+      "Amputación de mano (con prótesis funcional)",
+      "Ausencia congénita de extremidad inferior (prótesis útil)",
+      "Pie equinovaro bilateral tratado con secuelas moderadas",
+      "Escoliosis moderada (25-50 grados)",
+      "Cifosis moderada",
+      "Espondilolistesis grado 2"
+    ],
+    "severo": [
+      "Tetraplejía / Cuadriplejía",
+      "Triplejía",
+      "Parálisis cerebral discinética severa",
+      "Parálisis cerebral atáxica severa",
+      "Lesión medular completa (nivel C4-C7)",
+      "Esclerosis lateral amiotrófica (ELA) avanzada",
+      "Esclerosis múltiple (EDSS 7.0-9.5)",
+      "Enfermedad de Parkinson (Hoehn & Yahr 4-5)",
+      "Ataxia de Friedreich (postración en silla)",
+      "Distrofia muscular de Duchenne (no deambulante)",
+      "Miopatía de Steinert (grave)",
+      "Miopatía mitocondrial (dependencia total)",
+      "Artrogriposis múltiple severa (inmovilidad)",
+      "Osteogénesis imperfecta tipo II (letal) o tipo III con múltiples fracturas",
+      "Amputación bilateral de miembros inferiores (por encima de rodilla)",
+      "Amputación de ambos brazos",
+      "Focomelia (ausencia de extremidades)",
+      "Fibrodisplasia osificante progresiva (estadio avanzado, inmovilidad)",
+      "Espina bífida abierta con hidrocefalia y paraplejía",
+      "Escoliosis severa (>50 grados) con compromiso respiratorio"
+    ]
+  },
+  "Discapacidades Visuales": {
+    "leve": [
+      "Baja visión leve (20/70 a 20/160)",
+      "Miopía degenerativa moderada",
+      "Estrabismo paralítico con diplopía ocasional",
+      "Nistagmo congénito con agudeza conservada",
+      "Catarata unilateral operada con secuelas leves"
+    ],
+    "moderado": [
+      "Baja visión moderada (20/200 a 20/400)",
+      "Visión de túnel (campo 10-20 grados)",
+      "Glaucoma de ángulo abierto moderado",
+      "Retinopatía diabética no proliferativa (con pérdida visual moderada)",
+      "Degeneración macular seca intermedia",
+      "Retinosis pigmentaria (con campo tubular)",
+      "Catarata congénita bilateral operada con corrección",
+      "Atrofia óptica parcial",
+      "Neuritis óptica recurrente con secuelas",
+      "Toxoplasmosis ocular cicatrizada (mácula dañada)",
+      "Opacidad corneal central (visión reducida a 20/400)"
+    ],
+    "severo": [
+      "Ceguera total (bilateral)",
+      "Ceguera cortical",
+      "Baja visión severa (menos de 20/400)",
+      "Visión de túnel severa (<10 grados)",
+      "Glaucoma avanzado (afectación del nervio óptico)",
+      "Retinopatía diabética proliferativa con hemorragia vítrea",
+      "Degeneración macular húmeda avanzada",
+      "Distrofia de conos (pérdida de agudeza y fotofobia severa)",
+      "Retinosis pigmentaria (solo percepción de luz)",
+      "Anoftalmia / Microftalmia severa",
+      "Desprendimiento de retina recurrente (inoperable)",
+      "Atrofia del nervio óptico hereditaria (Leber)",
+      "Hipoplasia del nervio óptico severa",
+      "Aniridia completa (fotofobia y pérdida de agudeza)",
+      "Uveítis crónica complicada (hipotonía ocular)"
+    ]
+  },
+  "Discapacidades Auditivas": {
+    "leve": [
+      "Hipoacusia leve (30-40 dB)",
+      "Otosclerosis unilateral (con audífono)",
+      "Otitis media crónica unilateral sin complicaciones"
+    ],
+    "moderado": [
+      "Hipoacusia moderada (41-60 dB) bilateral",
+      "Hipoacusia mixta moderada",
+      "Síndrome de Pendred (hipoacusia con bocio, grado moderado)",
+      "Enfermedad de Menière (con pérdida auditiva fluctuante)",
+      "Colesteatoma unilateral con afectación moderada",
+      "Malformación de oído medio (estribo fijo) con audífono efectivo"
+    ],
+    "severo": [
+      "Hipoacusia severa (61-80 dB) bilateral",
+      "Hipoacusia profunda (>81 dB) bilateral",
+      "Côfosis (sordera total)",
+      "Síndrome de Usher (sordera congénita + retinosis)",
+      "Síndrome de Waardenburg con sordera total",
+      "Síndrome de Alport con hipoacusia severa",
+      "Hipoacusia neurosensorial bilateral post meningitis",
+      "Malformación de oído interno (aplasia de cóclea)",
+      "Atresia auricular bilateral",
+      "Neuropatía auditiva (sin beneficio con audífono)"
+    ]
+  },
+  "Trastornos del Habla y Lenguaje": {
+    "leve": [
+      "Disartria leve por Parkinson o ELA temprana",
+      "Afasia expresiva leve (tartamudeo por secuela neurológica)",
+      "Tartamudez clónica leve (interfiere ocasionalmente)",
+      "Trastorno fonológico leve (inteligible pero con errores)",
+      "Apraxia del habla infantil (con terapia mejora notable)"
+    ],
+    "moderado": [
+      "Disartria moderada (inteligible solo en frases cortas)",
+      "Afasia de Broca moderada (discurso telegráfico)",
+      "Apraxia del habla adquirida moderada",
+      "Disfasia del desarrollo (comprensión limitada)",
+      "Taquilalia severa (fluidez afectada)",
+      "Disglosia maxilofacial (labio leporino no corregido, habla nasal)"
+    ],
+    "severo": [
+      "Anartria (incapacidad total para articular)",
+      "Afasia global (sin producción ni comprensión)",
+      "Mutismo selectivo severo (ausencia total de habla en contextos)",
+      "Afasia sensorial severa (incomprensión del lenguaje)",
+      "Apraxia del habla severa (solo emisión de sonidos aislados)",
+      "Laringectomía total (sin prótesis fonatoria)",
+      "Parálisis de cuerdas vocales bilateral (voz ausente)",
+      "Esclerosis múltiple con anartria",
+      "ELA con afectación bulbar (incapacidad de comunicación oral)"
+    ]
+  },
+  "Trastornos del Espectro Autista y Neurodivergencias": {
+    "leve": [
+      "Autismo nivel 1 (requiere apoyo)",
+      "Síndrome de Asperger (TEA nivel 1)",
+      "TDAH combinado leve (funcional con tratamiento)",
+      "Dislexia leve (adaptaciones escolares)",
+      "Discalculia leve",
+      "Disgrafía leve"
+    ],
+    "moderado": [
+      "Autismo nivel 2 (requiere apoyo substancial)",
+      "TDAH severo (con alteración conductual significativa)",
+      "Trastorno de Tourette (tics motores y vocales moderados)",
+      "Trastorno de procesamiento auditivo central (moderado)",
+      "Síndrome de demand avoidance (PDA) moderado",
+      "Trastorno de oposición desafiante (afecta relaciones)"
+    ],
+    "severo": [
+      "Autismo nivel 3 (requiere apoyo muy substancial)",
+      "Trastorno desintegrativo infantil",
+      "TEA con regresión del lenguaje y epilepsia",
+      "Trastorno de Tourette con coprolalia y discapacidad funcional",
+      "Síndrome de la Tourette complejo (autolesiones)",
+      "Trastorno de tics motores/vocales crónicos severos",
+      "Trastorno de integración sensorial severo (sobrecarga constante)"
+    ]
+  },
+  "Discapacidades Psicosociales (Salud Mental)": {
+    "leve": [
+      "Trastorno depresivo mayor recurrente (leve)",
+      "Trastorno de ansiedad generalizada (funcional con terapia)",
+      "Trastorno de pánico sin agorafobia (leve)",
+      "Fobia social moderada (aislamiento parcial)",
+      "TOC leve (rituales controlables)",
+      "Trastorno de estrés postraumático (leve)"
+    ],
+    "moderado": [
+      "Esquizofrenia paranoide (controlada con medicación, pero con síntomas residuales)",
+      "Trastorno bipolar tipo II (ciclos rápidos moderados)",
+      "Trastorno depresivo mayor resistente al tratamiento (moderado)",
+      "Trastorno obsesivo-compulsivo grave (pérdida de horas significativa)",
+      "Trastorno de personalidad limítrofe (moderado – inestabilidad afectiva)",
+      "Anorexia nerviosa (peso estable pero con preocupación extrema)",
+      "Bulimia nerviosa (complicaciones médicas moderadas)"
+    ],
+    "severo": [
+      "Esquizofrenia desorganizada (incapacidad para autocuidado)",
+      "Trastorno esquizoafectivo (síntomas psicóticos predominantes)",
+      "Trastorno bipolar tipo I con ciclos rápidos y psicosis",
+      "Depresión psicótica (alucinaciones congruentes con el estado de ánimo)",
+      "Catatonia recurrente",
+      "Trastorno de acumulación grado 5 (riesgo de desalojo)",
+      "Trastorno de personalidad antisocial (con conductas delictivas recurrentes)"
+    ]
+  },
+  "Enfermedades Crónicas con Discapacidad Funcional": {
+    "leve": [
+      "Insuficiencia cardíaca NYHA I-II",
+      "EPOC GOLD I-II (disnea en esfuerzos moderados)",
+      "Asma leve persistente",
+      "Diabetes tipo 2 controlada (sin complicaciones mayores)",
+      "Enfermedad celíaca (síntomas controlados con dieta)",
+      "Enfermedad de Crohn (actividad leve)",
+      "Colitis ulcerosa leve"
+    ],
+    "moderado": [
+      "Insuficiencia cardíaca NYHA III",
+      "EPOC GOLD III (disnea en actividades diarias ligeras)",
+      "Fibrosis quística (compromiso pulmonar moderado, FEV1 40-60%)",
+      "Diabetes tipo 1 (complicaciones incipientes: retinopatía no proliferativa)",
+      "Insuficiencia renal crónica estadio IV (TFG 15-29)",
+      "Cirrosis Child-Pugh B",
+      "Enfermedad pulmonar intersticial con capacidad vital reducida"
+    ],
+    "severo": [
+      "Insuficiencia cardíaca NYHA IV",
+      "EPOC GOLD IV (disnea de reposo, oxigenodependencia)",
+      "Fibrosis pulmonar idiopática (capacidad vital <50%)",
+      "Hipertensión pulmonar WHO III-IV",
+      "Insuficiencia renal crónica estadio V (diálisis)",
+      "Cirrosis Child-Pugh C (encefalopatía hepática)",
+      "Enfermedad de Wilson con daño hepático y neurológico avanzado",
+      "Fibrosis quística (FEV1 <30%, dependencia de oxígeno)"
+    ]
+  },
+  "Condiciones Neuromusculares y Neurológicas": {
+    "leve": [
+      "Enfermedad de Parkinson Hoehn & Yahr 1-2",
+      "Esclerosis múltiple (EDSS 1.0-3.0)",
+      "Ataxia espinocerebelosa (marcha inestable pero independiente)",
+      "Polineuropatía periférica leve (hormigueo, déficit sensitivo)",
+      "Miastenia gravis (ocular leve)"
+    ],
+    "moderado": [
+      "Parkinson Hoehn & Yahr 3 (trastorno del equilibrio, caídas ocasionales)",
+      "Esclerosis múltiple (EDSS 4.0-6.0, uso de bastón)",
+      "Ataxia de Friedreich (necesita ayuda para caminar)",
+      "Distrofia miotónica (debilidad distal moderada)",
+      "Miastenia gravis (generalizada con crisis ocasionales)"
+    ],
+    "severo": [
+      "Parkinson Hoehn & Yahr 4-5 (postración en silla)",
+      "Esclerosis múltiple primaria progresiva (EDSS 7.0-9.5)",
+      "Enfermedad de Huntington (corea avanzada, disfagia)",
+      "Atrofia multisistémica (dependencia total)",
+      "Parálisis supranuclear progresiva (caídas frecuentes, discapacidad grave)",
+      "Leucodistrofia de Canavan (grave desde la infancia)",
+      "Enfermedad de Creutzfeldt-Jakob (demencia rápidamente progresiva)"
+    ]
+  },
+  "Discapacidades Congénitas y Perinatales": {
+    "leve": [
+      "Parálisis cerebral (capacidad de marcha independiente, algunos problemas de coordinación)",
+      "Kernicterus (secuelas leves de atetosis)",
+      "Malformación de Chiari tipo I sin siringomielia (asintomática o leve)"
+    ],
+    "moderado": [
+      "Parálisis cerebral espástica (necesita ayudas técnicas para caminar)",
+      "Malformación de Dandy-Walker (hidrocefalia controlada con derivación, déficit cognitivo moderado)",
+      "Hidranencefalia (supervivencia con retraso global moderado)"
+    ],
+    "severo": [
+      "Holoprosencefalia alobar (discapacidad severa, epilepsia refractaria)",
+      "Lissencefalia tipo 1 (ausencia de giros, afectación motora y cognitiva grave)",
+      "Encefalopatía hipóxico-isquémica neonatal (estado vegetativo)",
+      "Malformación de Chiari tipo II (con mielomeningocele y síntomas graves)",
+      "Agenesia del cuerpo calloso completa (convulsiones y déficit profundo)"
+    ]
+  },
+  "Trastornos Genéticos Raros": {
+    "leve": [
+      "Síndrome de Bardet-Biedl (obesidad, polidactilia, retraso leve)",
+      "Síndrome de Cockayne (leve, con talla baja y fotosensibilidad sin demencia severa temprana)",
+      "Displasia ectodérmica hipohidrótica (afectación leve de dientes y glándulas)"
+    ],
+    "moderado": [
+      "Síndrome de Alström (pérdida visual y auditiva moderada, diabetes)",
+      "Síndrome de Rothmund-Thomson (poiquilodermia, cataratas juveniles, talla baja)",
+      "Homocistinuria clásica (si se trata precozmente, discapacidad intelectual moderada)"
+    ],
+    "severo": [
+      "Progeria (envejecimiento acelerado, muerte en segunda década)",
+      "Epidermólisis ampollosa distrófica (afectación grave de piel, deformidades)",
+      "Síndrome de Ehlers-Danlos vascular (riesgo de rotura arterial, discapacidad crónica)",
+      "Síndrome de Byler (colestasis progresiva que lleva a trasplante hepático)"
+    ]
+  },
+  "Discapacidades Hematológicas e Inmunológicas": {
+    "leve": [
+      "Hemofilia A leve (factor VIII 5-40%) – sangrados solo con trauma mayor",
+      "Enfermedad de von Willebrand tipo 1 (hemorragias nasales ocasionales)",
+      "Talasemia minor (asintomática)"
+    ],
+    "moderado": [
+      "Hemofilia A moderada (factor VIII 1-5%) – hemartrosis ocasional",
+      "Anemia de Fanconi (insuficiencia medular parcial, necesidad de transfusiones esporádicas)",
+      "Púrpura trombocitopénica inmunológica crónica (trombocitopenia moderada, riesgo leve de sangrado)"
+    ],
+    "severo": [
+      "Hemofilia A severa (factor VIII <1%) – sangrados espontáneos",
+      "Anemia de Fanconi (insuficiencia medular completa, dependencia de transfusiones)",
+      "Inmunodeficiencia combinada grave (SCID) – requiere aislamiento y trasplante",
+      "Agammaglobulinemia de Bruton (infecciones bacterianas recurrentes graves)"
+    ]
+  },
+  "Discapacidades por Quemaduras y Traumatismos Severos": {
+    "leve": [
+      "Cicatrices queloides localizadas sin limitación funcional",
+      "Contractura postraumática de un dedo (sin discapacidad mayor)"
+    ],
+    "moderado": [
+      "Cicatrices restrictivas en una articulación (codo o rodilla, limitación de movimiento)",
+      "Síndrome compartimental crónico (dolor con el ejercicio, sin daño neurológico)"
+    ],
+    "severo": [
+      "Secuelas de quemaduras grado 3 en >50% de superficie corporal (inmovilidad articular, desfiguración)",
+      "Lesión de plexo braquial bilateral (parálisis de ambos brazos)",
+      "Traumatismo craneoencefálico severo (estado vegetativo persistente)",
+      "Amputación múltiple (pérdida de 3 o más extremidades)"
+    ]
+  },
+  "Otras Condiciones con Impacto Funcional": {
+    "leve": [
+      "Síndrome de fatiga crónica (actividad reducida pero autónomo)",
+      "Sensibilidad química múltiple (reacción a ciertos químicos, evita exposición)"
+    ],
+    "moderado": [
+      "Narcolepsia con cataplejía (caídas ocasionales, necesita medicación diaria)",
+      "Síndrome de piernas inquietas grave (insomnio recurrente, afecta calidad de vida)"
+    ],
+    "severo": [
+      "Síndrome de desadaptación circadiana severo (incapacidad para mantener horarios laborales)",
+      "Enfermedad de Ménière (vértigo incapacitante diario, caídas frecuentes)",
+      "Electrohipersensibilidad (discapacidad para usar dispositivos electrónicos, aislamiento social)"
+    ]
+  }
+}

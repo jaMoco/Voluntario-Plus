@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140">
+  <!-- Estrella superior -->
+  <path d="M60 10 Q 62 26 76 28 Q 62 30 60 46 Q 58 30 44 28 Q 58 26 60 10 Z" fill="#84b51f" />
+  
+  <!-- Barras/Hojas Izquierdas -->
+  <polygon points="35,45 57,67 57,52 35,30" fill="#5f8234" />
+  <polygon points="35,70 57,92 57,77 35,55" fill="#6b942e" />
+  <polygon points="25,85 57,117 57,125 25,93" fill="#7aab24" />
+  
+  <!-- Barras/Hojas Derechas -->
+  <polygon points="85,45 63,67 63,52 85,30" fill="#6b942e" />
+  <polygon points="85,70 63,92 63,77 85,55" fill="#7aab24" />
+  <polygon points="95,85 63,117 63,125 95,93" fill="#8fc418" />
+  
+  <!-- Detalles (hojas pequeñas) -->
+  <path d="M38 85 Q 45 105 52 95 Q 45 80 38 85 Z" fill="#90c812" />
+  <path d="M82 45 Q 75 65 68 55 Q 75 40 82 45 Z" fill="#5f8234" />
+</svg>
