@@ -62,50 +62,43 @@ voluntario-plus/
 
 ---
 
-## 📦 Instalación y ejecución general
+### 📦 Requisitos previos
+* Node.js (v20 o superior)
+* MySQL (XAMPP, WAMP o standalone)
+* Git
 
-### Requisitos previos
-- Node.js (v20 o superior)
-- MySQL (XAMPP, WAMP o standalone)
-- Git
-
-### Clonar el repositorio
-`bash
-``git clone https://github.com/tu-usuario/voluntario-plus.git
+### 🚀 Clonar el repositorio
+``bash
+git clone [https://github.com/tu-usuario/voluntario-plus.git](https://github.com/tu-usuario/voluntario-plus.git)
 cd voluntario-plus``
 
-Configurar la base de datos
-Importa el archivo database/voluntario_plus.sql en tu MySQL (phpMyAdmin o línea de comandos).
+###🗄️ Configurar la base de datos
+Importa el archivo database/voluntario_plus.sql en tu gestor MySQL (phpMyAdmin o línea de comandos).
 
-Verifica que la base voluntario_plus se haya creado con todas las tablas.
+Verifica que la base de datos voluntario_plus se haya creado correctamente con todas sus tablas.
 
-FRONTEND
+###⚙️ Instalación del Backend
+
 cd backend
 npm install
 cp .env.example .env   # (edita con tus credenciales locales)
 npm run dev
 
-BACKEND
+### 🎨 Instalación del Frontend
+
 cd frontend
 npm install
 npm run dev
 
-Abre http://localhost:5173 en tu navegador.
+> 💡 **Nota:** Una vez ejecutado, abre http://localhost:5173 en tu navegador.
 
-⚙️ Backend – API REST
+
+### ⚙️ Backend – API REST
 API RESTful para la plataforma de voluntariado. Desarrollada con Node.js, Express, MySQL y autenticación JWT.
 
-Tecnologías backend
-Tecnología	Propósito
-Express	Framework web para Node.js
-MySQL2	Driver con soporte de promesas y pool de conexiones
-bcryptjs	Hashing de contraseñas
-jsonwebtoken	Autenticación sin estado
-Nodemailer	Envío de correos (verificación)
-pdfkit	Generación de certificados PDF
-dotenv	Variables de entorno
+Tecnologías backendTecnologíaPropósitoExpressFramework web para Node.jsMySQL2Driver con soporte de promesas y pool de conexionesbcryptjsHashing de contraseñasjsonwebtokenAutenticación sin estadoNodemailerEnvío de correos (verificación)pdfkitGeneración de certificados PDFdotenvVariables de entorno
 
-Estructura backend
+#### Estructura backend
 
 backend/
 ├── config/           # Configuración (DB, mailer)
@@ -118,8 +111,10 @@ backend/
 ├── package.json
 └── server.js         # Punto de entrada
 
+
+Configuración de proxy (Vite) – evita CORS en desarrollo
+
 Variables de entorno (.env)
-Copia el archivo .env.example a .env y completa los valores:Variables de entorno (.env)
 Copia el archivo .env.example a .env y completa los valores:
 
 PORT=5000
@@ -134,52 +129,35 @@ SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 RECAPTCHA_SECRET=clave_recaptcha
 
-Endpoints principales
-Método	Ruta	Descripción	Acceso
-POST	/api/auth/registro/voluntario	Registro de voluntario	Público
-POST	/api/auth/registro/organizacion	Registro de organización	Público
-POST	/api/auth/login	Inicio de sesión (devuelve JWT)	Público
-GET	/api/publicaciones	Lista todas las oportunidades	Público
-POST	/api/aplicaciones	Postularse a una oportunidad	Voluntario
-GET	/api/organizacion/panel	Panel de organización	Organización
-GET	/api/admin/panel	Panel de administración	Admin
-POST	/api/organizacion/aplicaciones/:id/completar	Completar proyecto y generar PDF	Organización
+Endpoints principalesMétodoRutaDescripciónAccesoPOST/api/auth/registro/voluntarioRegistro de voluntarioPúblicoPOST/api/auth/registro/organizacionRegistro de organizaciónPúblicoPOST/api/auth/loginInicio de sesión (devuelve JWT)PúblicoGET/api/publicacionesLista todas las oportunidadesPúblicoPOST/api/aplicacionesPostularse a una oportunidadVoluntarioGET/api/organizacion/panelPanel de organizaciónOrganizaciónGET/api/admin/panelPanel de administraciónAdminPOST/api/organizacion/aplicaciones/:id/completarCompletar proyecto y generar PDFOrganización
 
 Seguridad implementada
-JWT con expiración de 24h (almacenado en localStorage en el frontend)
+JWT con expiración de 24h (almacenado en localStorage en el frontend).
 
-bcrypt hashing con 10 rondas
+bcrypt hashing con 10 rondas.
 
-reCAPTCHA v2 en registros
+reCAPTCHA v2 en registros.
 
-Verificación de correo (token único de 32 bytes, expiración 24h)
+Verificación de correo (token único de 32 bytes, expiración 24h).
 
-Protección de rutas por rol (middleware verificarToken)
+Protección de rutas por rol (middleware verificarToken).
 
-Variables de entorno para credenciales sensibles
+Variables de entorno para credenciales sensibles.
 
 Pruebas con curl (ejemplo)
 
 # Login
-curl -X POST http://localhost:5000/api/auth/login \
+``curl -X POST http://localhost:5000/api/auth/login \
   -H "Content-Type: application/json" \
-  -d '{"email":"admin@voluntario.com","password":"123456"}'
+  -d '{"email":"admin@voluntario.com","password":"123456"}'``
 
-  🎨 Frontend – React + Vite
-Interfaz de usuario de la plataforma de voluntariado. Diseñada con enfoque en accesibilidad (WCAG 2.1), navegación por teclado y compatibilidad con lectores de pantalla.
+  ### 🎨 Frontend – React + Vite
 
-Tecnologías frontend
-Tecnología	Propósito
-React 18	Biblioteca para interfaces de usuario
-Vite	Empaquetador ultrarrápido (HMR, esbuild)
-React Router DOM	Navegación SPA
-Axios	Cliente HTTP con interceptores
-React Hot Toast	Notificaciones accesibles
-CSS puro	Estilos modulares por componente (sin frameworks)
+  Interfaz de usuario de la plataforma de voluntariado. Diseñada con enfoque en accesibilidad (WCAG 2.1), navegación por teclado y compatibilidad con lectores de pantalla.Tecnologías frontendTecnologíaPropósitoReact 18Biblioteca para interfaces de usuarioViteEmpaquetador ultrarrápido (HMR, esbuild)React Router DOMNavegación SPAAxiosCliente HTTP con interceptoresReact Hot ToastNotificaciones accesiblesCSS puroEstilos modulares por componente (sin frameworks)
 
-Estructura frontend
-
-frontend/
+  ### Estructura frontend
+``
+  frontend/
 ├── public/               # Índice y recursos estáticos
 ├── src/
 │   ├── components/       # Componentes reutilizables
@@ -197,32 +175,15 @@ frontend/
 │   └── index.jsx
 ├── .env                  # Variables de entorno (opcional)
 ├── package.json
-└── vite.config.js        # Proxy para evitar CORS
+└── vite.config.js        # Proxy para evitar CORS``
 
-Rutas principales
-Ruta	Descripción	Acceso
-/	Página de bienvenida (pública)	Todos
-/login	Inicio de sesión	Todos
-/registro/voluntario	Registro de voluntario	Todos
-/registro/organizacion	Registro de organización	Todos
-/feed	Feed de oportunidades	Voluntario
-/perfil	Perfil del voluntario	Voluntario
-/mis-postulaciones	Historial de postulaciones	Voluntario
-/mis-certificados	Certificados descargables	Voluntario
-/organizacion/panel	Panel de organización	Organización
-/organizacion/nueva-publicacion	Crear oportunidad	Organización
-/admin/panel	Panel de administración	Admin
+Rutas principalesRutaDescripciónAcceso/Página de bienvenida (pública)Todos/loginInicio de sesiónTodos/registro/voluntarioRegistro de voluntarioTodos/registro/organizacionRegistro de organizaciónTodos/feedFeed de oportunidadesVoluntario/perfilPerfil del voluntarioVoluntario/mis-postulacionesHistorial de postulacionesVoluntario/mis-certificadosCertificados descargablesVoluntario/organizacion/panelPanel de organizaciónOrganización/organizacion/nueva-publicacionCrear oportunidadOrganización/admin/panelPanel de administraciónAdmin
+
 Accesibilidad
 Atributos ARIA (aria-label, role, aria-expanded) en componentes interactivos.
 
-Navegación por teclado (Tab, Enter, Espacio). El foco es visible con outline.
+Navegación por teclado (Tab, Enter, Espacio). El foco es visible con un outline.
 
 Compatibilidad con lectores de pantalla (VoiceOver, TalkBack, NVDA).
 
 Contraste de color según WCAG 2.1 (ratio ≥4.5:1).
-
-Tamaños de fuente en rem y zoom hasta 200% sin pérdida de funcionalidad.
-
-Proxy y variables de entorno
-Configuración de proxy (Vite) – evita CORS en desarrollo
-
