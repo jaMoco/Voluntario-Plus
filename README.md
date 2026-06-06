@@ -62,29 +62,29 @@ voluntario-plus/
 
 ---
 
-### 📦 Requisitos previos
+## 📦 Requisitos previos
 * Node.js (v20 o superior)
 * MySQL (XAMPP, WAMP o standalone)
 * Git
 
-### 🚀 Clonar el repositorio
+## 🚀 Clonar el repositorio
 ``bash
 git clone [https://github.com/tu-usuario/voluntario-plus.git](https://github.com/tu-usuario/voluntario-plus.git)
 cd voluntario-plus``
 
-###🗄️ Configurar la base de datos
+##🗄️ Configurar la base de datos
 Importa el archivo database/voluntario_plus.sql en tu gestor MySQL (phpMyAdmin o línea de comandos).
 
 Verifica que la base de datos voluntario_plus se haya creado correctamente con todas sus tablas.
 
-###⚙️ Instalación del Backend
+##⚙️ Instalación del Backend
 
 cd backend
 npm install
 cp .env.example .env   # (edita con tus credenciales locales)
 npm run dev
 
-### 🎨 Instalación del Frontend
+## 🎨 Instalación del Frontend
 
 cd frontend
 npm install
@@ -93,12 +93,12 @@ npm run dev
 > 💡 **Nota:** Una vez ejecutado, abre http://localhost:5173 en tu navegador.
 
 
-### ⚙️ Backend – API REST
+## ⚙️ Backend – API REST
 API RESTful para la plataforma de voluntariado. Desarrollada con Node.js, Express, MySQL y autenticación JWT.
 
 Tecnologías backendTecnologíaPropósitoExpressFramework web para Node.jsMySQL2Driver con soporte de promesas y pool de conexionesbcryptjsHashing de contraseñasjsonwebtokenAutenticación sin estadoNodemailerEnvío de correos (verificación)pdfkitGeneración de certificados PDFdotenvVariables de entorno
 
-#### Estructura backend
+## Estructura backend
 
 backend/
 ├── config/           # Configuración (DB, mailer)
@@ -155,7 +155,7 @@ Pruebas con curl (ejemplo)
 
   Interfaz de usuario de la plataforma de voluntariado. Diseñada con enfoque en accesibilidad (WCAG 2.1), navegación por teclado y compatibilidad con lectores de pantalla.Tecnologías frontendTecnologíaPropósitoReact 18Biblioteca para interfaces de usuarioViteEmpaquetador ultrarrápido (HMR, esbuild)React Router DOMNavegación SPAAxiosCliente HTTP con interceptoresReact Hot ToastNotificaciones accesiblesCSS puroEstilos modulares por componente (sin frameworks)
 
-  ### Estructura frontend
+  ## Estructura frontend
 ``
   frontend/
 ├── public/               # Índice y recursos estáticos
