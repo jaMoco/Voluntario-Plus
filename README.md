@@ -257,81 +257,104 @@ Ruta	Descripción	Acceso
 /organizacion/nueva-publicacion	Crear oportunidad	Organización
 /admin/panel	Panel de administración	Admin
 
-## Accesibilidad
-Atributos ARIA (aria-label, role, aria-expanded) en componentes interactivos.
+## ♿ Accesibilidad (A11y)
 
-Navegación por teclado (Tab, Enter, Espacio). El foco es visible con outline.
+El frontend de **Voluntario+** está diseñado bajo principios de inclusión, siguiendo las pautas esenciales de accesibilidad para garantizar una experiencia óptima a todos los usuarios:
 
-Compatibilidad con lectores de pantalla (VoiceOver, TalkBack, NVDA).
+* **Atributos ARIA:** Uso estricto de roles y estados (`aria-label`, `role`, `aria-expanded`) en componentes interactivos clave como modales, barras de navegación y menús desplegables.
+* **Navegación por Teclado:** Soporte completo para recorrer la aplicación utilizando únicamente las teclas `Tab`, `Enter` y `Espacio`. El indicador de enfoque (`focus outline`) es siempre visible y con alto contraste.
+* **Lectores de Pantalla:** Estructura semántica HTML5 optimizada para una correcta interpretación mediante tecnologías de asistencia como *VoiceOver*, *TalkBack* y *NVDA*.
+* **Contraste de Color:** Paleta de colores ajustada bajo los criterios de la norma **WCAG 2.1**, garantizando una relación de contraste mínima de `4.5:1` para todo el texto legible.
+* **Diseño Elástico:** Escalabilidad tipográfica basada en unidades relativas (`rem`), permitiendo aplicar zoom en el navegador de hasta un 200% sin que se rompa el diseño ni se pierda funcionalidad.
 
-Contraste de color según WCAG 2.1 (ratio ≥4.5:1).
+---
 
-Tamaños de fuente en rem y zoom hasta 200% sin pérdida de funcionalidad.
+## 🔄 Proxy y Variables de Entorno
 
-## Proxy y variables de entorno
-Configuración de proxy (Vite) – evita CORS en desarrollo
-vite.config.js:
+### Configuración del Proxy (Desarrollo)
+Para prevenir conflictos de **CORS** (*Cross-Origin Resource Sharing*) durante el desarrollo local, Vite está configurado para actuar como un proxy inverso hacia el servidor del backend.
 
+**Archivo:** `frontend/vite.config.js`
+```javascript
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// [https://vitejs.dev/config/](https://vitejs.dev/config/)
 export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'http://localhost:5000'
+      '/api': {
+        target: 'http://localhost:5000',
+        changeOrigin: true,
+        secure: false,
+      }
     }
   }
 })
+```
 
-# Variables de entorno (opcional)
+### Variables de Entorno
 
-Crea un archivo .env en la raíz de frontend:
+Si necesitas parametrizar o cambiar dinámicamente la URL base del backend, puedes controlarlo mediante variables de entorno en el frontend.
 
+1. Crea un archivo `.env` en la raíz de la carpeta `frontend/`:
+```env
 VITE_API_URL=http://localhost:5000/api
+```
 
-En services/api.js:
+2. La configuración centralizada de **Axios** consumirá esta variable automáticamente, utilizando el proxy local como alternativa en caso de que falte:
+**Archivo:** `frontend/src/services/api.js`
+```javascript
+import axios from 'axios'
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL || '/api'
 })
 
+export default api
+```
+
+---
+
 ## 🚫 Archivos a ignorar (.gitignore)
 
-Crea un archivo .gitignore en la raíz del proyecto con el siguiente contenido:
+Para mantener el repositorio limpio y evitar la fuga de información sensible (como credenciales de bases de datos o llaves de correo), asegúrate de crear un archivo `.gitignore` en la **raíz del proyecto** con la siguiente estructura comentada:
 
-# Dependencias
+```gitignore
+# Dependencias de Node (No incluir en el repositorio)
 node_modules/
 backend/node_modules/
 frontend/node_modules/
 
-# Variables de entorno
+# Archivos de entorno locales (Contienen credenciales y llaves privadas)
 .env
 *.env
 backend/.env
 frontend/.env
 
-# Logs
+# Registros del sistema y depuración (Logs)
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Builds
+# Directorios de compilación y producción (Builds)
 dist/
 build/
 frontend/dist/
 
-# Archivos generados localmente
+# Documentos generados de forma local o dinámica
 certificados/
 *.pdf
 
-# Editor y SO
+# Archivos específicos de entornos de desarrollo (IDE) y SO
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
-# Otros
+# Archivos temporales o del sistema de intercambio
 *.tmp
 *.swp
-
-
+```
