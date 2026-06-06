@@ -105,7 +105,7 @@ voluntario-plus/
 | **Gestión de postulantes** | <img src="screenshots/postulantes.png" width="400"/> |
 | **Perfil de voluntario (insignias)** | <img src="screenshots/perfil-insignias.png" width="400"/> |
 | **Panel de administración** | <img src="screenshots/admin-panel.png" width="400"/> |
-| **Certificado PDF generado** | <p> en proceso de creacion </p> |
+| **Certificado PDF generado** |  |
 
 ---
 
