@@ -358,3 +358,14 @@ Thumbs.db
 *.tmp
 *.swp
 ```
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia **MIT**. Puedes consultar el archivo [LICENSE](./LICENSE) para conocer todos los detalles sobre los permisos, condiciones y limitaciones de uso.
+
+![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-blue.svg?style=flat-square)
+
+---
+
+<p align="center">
+  Desarrollado con ❤️ y ☕ por <strong>Jesús Moco</strong> 👨‍💻 — 2026
+</p>
