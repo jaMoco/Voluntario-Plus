@@ -231,31 +231,34 @@ curl -X POST http://localhost:5000/api/auth/login \
 
 ## 🎨 Frontend – React + Vite
 
-# Interfaz de usuario de la plataforma de voluntariado.
+**Interfaz de usuario de la plataforma de voluntariado.**
 
-Tecnologías frontend
-Tecnología	Propósito
-React 18	Biblioteca para interfaces de usuario
-Vite	Empaquetador ultrarrápido (HMR, esbuild)
-React Router DOM	Navegación SPA
-Axios	Cliente HTTP con interceptores
-React Hot Toast	Notificaciones accesibles
-CSS puro	Estilos modulares por componente (sin frameworks)
+### Tecnologías frontend
 
-# Rutas principales
+| Tecnología | Propósito |
+| :--- | :--- |
+| **React 18** | Biblioteca para interfaces de usuario |
+| **Vite** | Empaquetador ultrarrápido (HMR, esbuild) |
+| **React Router DOM** | Navegación SPA |
+| **Axios** | Cliente HTTP con interceptores |
+| **React Hot Toast** | Notificaciones accesibles |
+| **CSS puro** | Estilos modulares por componente (sin frameworks) |
 
-Ruta	Descripción	Acceso
-/	Página de bienvenida (pública)	Todos
-/login	Inicio de sesión	Todos
-/registro/voluntario	Registro de voluntario	Todos
-/registro/organizacion	Registro de organización	Todos
-/feed	Feed de oportunidades	Voluntario
-/perfil	Perfil del voluntario	Voluntario
-/mis-postulaciones	Historial de postulaciones	Voluntario
-/mis-certificados	Certificados descargables	Voluntario
-/organizacion/panel	Panel de organización	Organización
-/organizacion/nueva-publicacion	Crear oportunidad	Organización
-/admin/panel	Panel de administración	Admin
+### Rutas principales
+
+| Ruta | Descripción | Acceso |
+| :--- | :--- | :--- |
+| `/` | Página de bienvenida (pública) | Todos |
+| `/login` | Inicio de sesión | Todos |
+| `/registro/voluntario` | Registro de voluntario | Todos |
+| `/registro/organizacion` | Registro de organización | Todos |
+| `/feed` | Feed de oportunidades | Voluntario |
+| `/perfil` | Perfil del voluntario | Voluntario |
+| `/mis-postulaciones` | Historial de postulaciones | Voluntario |
+| `/mis-certificados` | Certificados descargables | Voluntario |
+| `/organizacion/panel` | Panel de organización | Organización |
+| `/organizacion/nueva-publicacion` | Crear oportunidad | Organización |
+| `/admin/panel` | Panel de administración | Admin |
 
 ## ♿ Accesibilidad (A11y)
 
