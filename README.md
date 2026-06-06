@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/logo.png" alt="Voluntario+ Logo" width="200"/>
+  <img src="screenshots/logo.svg" alt="Voluntario+ Logo" width="200"/>
 </p>
 
 <h1 align="center">🌱 Voluntario+</h1>
