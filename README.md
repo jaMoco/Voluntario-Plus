@@ -61,3 +61,28 @@
 
 ## 📁 Estructura del proyecto
 
+voluntario-plus/
+├── backend/ # API REST (Node.js + Express)
+│ ├── config/ # Configuración (DB, mailer)
+│ ├── controllers/ # Lógica de negocio
+│ ├── middleware/ # Auth, validaciones
+│ ├── models/ # Consultas SQL
+│ ├── routes/ # Endpoints de la API
+│ ├── utils/ # Funciones auxiliares (pdf, captcha, validadores)
+│ ├── .env.example # Plantilla de variables de entorno
+│ └── server.js # Punto de entrada
+├── frontend/ # Aplicación React (SPA)
+│ ├── public/ # Índice y recursos estáticos
+│ ├── src/
+│ │ ├── components/ # Componentes reutilizables por rol
+│ │ ├── contexts/ # AuthContext (autenticación global)
+│ │ ├── hooks/ # useIdleTimeout, etc.
+│ │ ├── pages/ # Páginas públicas (Welcome, AcercaDe)
+│ │ ├── services/ # Configuración de Axios
+│ │ ├── styles/ # CSS global
+│ │ └── App.jsx
+│ ├── package.json
+│ └── vite.config.js # Proxy para evitar CORS
+├── database/ # Scripts SQL (estructura y datos de prueba)
+├── screenshots/ # Capturas de pantalla (para este README)
+└── README.md # Este archivo
